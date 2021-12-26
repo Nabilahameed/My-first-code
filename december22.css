@@ -1,0 +1,365 @@
+p{
+    font-size: large;
+}
+
+/* Main */
+
+
+.main{}
+
+
+/* Header */
+
+.header{
+    background-color: rgb(66, 135, 245);
+}
+.header h1{
+    color: rgb(255, 255, 255);
+    
+}
+
+.header ul{
+    list-style: none;
+    text-align: right;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+
+.header ul li a{
+    text-decoration: none;
+    padding: 18px 10px;
+    font-size: 20px;
+    color: blue;
+    border-right:1px solid #fff ;
+    margin-left: -5px;
+    border-radius: 50px 0px 50px 5px;
+    font-size: 20px;
+    transition: 0.9s;
+    
+}
+
+.header ul li:hover a{
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(211, 208, 208);
+    text-shadow:2px 3px 2px 3px rgb(240, 57, 57);
+}
+
+
+
+/* header Dropdown menu */
+
+
+.header{}
+
+
+
+
+.header ul li{
+    position: relative;
+    
+}
+.header ul li ul{
+    position: absolute;
+    top: 160%;
+    left: -25%;
+    border: 1px solid rgb(221, 5, 5);
+    background: #000;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.header ul li ul li{
+    display: block;
+}
+.header ul li ul li a{
+    font-size: 25px;
+    color: rgb(151, 151, 151);
+    text-align: center;
+   border: none;
+    border-radius: 50%;
+    margin: 20px 0px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.header ul li ul li a:hover {
+    color: rgb(10, 179, 33);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+.header ul li ul{
+    transition: 0.9s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.header ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+
+} 
+
+
+/* baneer */
+
+.baneer{
+    background-image: url(./bd2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;  
+    background-attachment: fixed;
+     
+}
+.baneer h2{
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+    display: inline-block;
+    padding:2px 30px;
+    border-radius: 10px;
+}
+.baneer h1{
+    background-color: rgb(107, 157, 238);
+    color: #fff;
+    max-width: 50%;
+    margin:10px auto;
+
+    padding:2px 30px;
+    border-radius: 10px;
+}
+
+
+/* About */
+
+.about{
+    padding-top: 40px;
+    background-color: rgb(211, 208, 208);
+}
+.about h1{
+    text-decoration: underline wavy 2px red;
+    padding: 10px;
+    
+}
+.about p{
+    padding: 10px;
+    font-size: large;
+}
+
+
+/* services*/
+
+.services{
+    margin: 20px auto;
+}
+
+
+
+.service{
+    margin: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(80, 80, 151);
+    transform: scale(1);
+}
+
+.service:hover{
+    box-shadow: darkslategray 0 0 50px 0;
+    transform: scale(1.1);
+    transition: 0.9s;
+    
+}
+
+.service h2{
+    padding: 5px;
+    color: rgb(57, 127, 240);
+    background-color: rgb(172, 170, 167);
+
+}
+
+.service p{
+    padding: 5px;
+
+}
+
+.icon{
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 114, 117);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.icon:hover::before{
+    color: black;
+}
+
+
+
+
+/* Content */
+
+.content{
+   border: 1px solid #000;
+   margin: 2px;
+   padding: 20px;
+
+}
+
+.content img{
+    height: 400px;
+    width: 350px;
+    line-height: 400px;
+    margin-top: 25px;
+}
+
+.content h2{
+    color: crimson;
+    text-decoration: underline solid 2px black;
+
+}
+.content p{
+    padding: 10px;
+}
+
+
+/* video */
+
+.video{
+    width: 400px;
+    height: 630px;
+    line-height: 630px;
+    background-color: rgb(223, 223, 223);
+    border: 1px solid black;
+    box-shadow: rgb(25 26 25) 0 0 50px 0;
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+    background-color: rgb(179, 174, 174);
+    margin: auto;
+    width: 95%;
+}
+
+.jumbotron h1{
+    padding: 10px;
+}
+
+#btn{
+    float: right;
+}
+#btn:hover{
+    background-color: black;
+    color: crimson;
+}
+
+
+/* call-icon */
+
+.call-icon{
+    
+}
+.call-icon a{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    position: fixed;
+    top: 90%;
+    left:96% ;
+    transition: 0.4s;
+    
+}
+
+.call-icon a:hover{
+    
+    background-color: rgb(3, 3, 3);
+    color: rgb(0, 110, 255);
+    border-radius: 50%;
+}
+
+
+
+/* last */
+
+.last .jumbotron{
+    background-image: url(./MONEY.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.last i{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    margin-top: 15%;
+    padding: 10px;
+    margin-left: 10px;  
+    margin-right: 10px; 
+    transition: 0.5s; 
+}
+.last i:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 0, 0);
+    transform: scale(1.2);
+}
+
+
+
+/* .last img{
+    width: 99%;
+    height: auto;
+    margin-left: 5px;
+    border:1px solid rgb(255, 0, 0);
+    box-shadow: 0 0 40px 0 red;
+} */
+
+
+/* footer */
+
+.footer{
+    background-color: rgb(92, 84, 99);
+    text-align: center;
+    
+
+}
+
+.footer h6{
+    padding-top: 15px;
+}
+
+.footer ul{
+    height: 80px;
+    line-height: 85px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer ul li a{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20%;
+    color: rgb(219, 143, 143);
+    opacity: 0.8;
+    transition: 0.5s;
+   
+    
+}
+.footer ul li a:hover{
+    opacity: 1;
+    background-color: rgb(223, 223, 223);
+    color: rgb(179, 10, 10);
+}
